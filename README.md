@@ -8,9 +8,7 @@ For time-series input-output regression task, the transformer has the following 
 - Position encoding: Transformers use position encoding to provide each input element with a unique positional embedding, which enables the model to take into account the position of each element in the sequence. This is important for tasks that require modeling sequential data, and helps the model distinguish between different positions in the sequence explicitly.
 
 The model is as folllows
-$$
-\hat{y}(T) = Trans(u(T),\ldots,u(T-N)).
-$$
+$$\hat{y}(T) = Trans(u(T),\ldots,u(T-N)).$$
 where $N$ is the length of the past information of input $u$ that has impact on the output $\hat{y}$.
 
 The project consists of three parts
